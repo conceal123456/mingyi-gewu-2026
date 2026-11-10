@@ -1,0 +1,1 @@
+License reference: https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5.2.5/LICENSE

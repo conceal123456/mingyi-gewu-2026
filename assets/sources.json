@@ -1,0 +1,415 @@
+{
+  "images": [
+    {
+      "target": "doctor_bianque.jpg",
+      "kind": "portrait",
+      "name": "扁鹊",
+      "seal": "越人",
+      "title": "Chinese woodcut, Famous medical figures; Portrait of Bian Que (Wellcome L0039317)",
+      "license": "Public Domain Mark · Wellcome Collection",
+      "source_page": "https://iiif.wellcomecollection.org/image/L0039317/info.json",
+      "status": "cached"
+    },
+    {
+      "target": "doctor_zhangzhongjing.jpg",
+      "kind": "portrait",
+      "name": "张仲景",
+      "seal": "南阳",
+      "title": "C19 Chinese painting of Zhang Zhongjing (Wellcome L0039825)",
+      "license": "Public Domain Mark · Wellcome Collection",
+      "source_page": "https://iiif.wellcomecollection.org/image/L0039825/info.json",
+      "status": "cached"
+    },
+    {
+      "target": "doctor_huatuo.jpg",
+      "kind": "portrait",
+      "name": "华佗",
+      "seal": "沛国",
+      "title": "汉名医华佗.jpg",
+      "license": "Public Domain · Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E6%B1%89%E5%90%8D%E5%8C%BB%E5%8D%8E%E4%BD%97.jpg",
+      "status": "cached"
+    },
+    {
+      "target": "doctor_sunsimiao.jpg",
+      "kind": "portrait",
+      "name": "孙思邈",
+      "seal": "千金",
+      "title": "Chinese woodcut, Famous medical figures; Sun Simiao (Wellcome L0039324)",
+      "license": "Public Domain Mark · Wellcome Collection",
+      "source_page": "https://iiif.wellcomecollection.org/image/L0039324/info.json",
+      "status": "cached"
+    },
+    {
+      "target": "doctor_lishizhen.jpg",
+      "kind": "portrait",
+      "name": "李时珍",
+      "seal": "濒湖",
+      "title": "Li Shizhen portrait.jpg",
+      "license": "Public Domain · Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Li_Shizhen_portrait.jpg",
+      "status": "cached"
+    },
+    {
+      "target": "bencao_page.jpg",
+      "kind": "bencao",
+      "title": "Chinese materia medica (Ming), contents page (Wellcome L0039454)",
+      "license": "Public Domain Mark · Wellcome Collection",
+      "source_page": "https://wellcomecollection.org/works/jcgm3f4b",
+      "status": "cached"
+    },
+    {
+      "target": "materia_plate.jpg",
+      "kind": "bencao",
+      "title": "Chinese materia medica, Ming; Huangqin (Wellcome L0039301)",
+      "license": "Public Domain Mark · Wellcome Collection",
+      "source_page": "https://iiif.wellcomecollection.org/image/L0039301/info.json",
+      "status": "cached"
+    },
+    {
+      "target": "shennong.jpg",
+      "kind": "bencao",
+      "title": "Watercolour of Shen Nung, Chinese deity of medicine (Wellcome L0004703EA)",
+      "license": "CC BY 4.0 · Wellcome Collection",
+      "source_page": "https://wellcomecollection.org/works/juuzzsre",
+      "status": "cached"
+    },
+    {
+      "target": "apothecary_print.jpg",
+      "kind": "bencao",
+      "title": "A Chinese apothecary carrying medicines in a basket (Wellcome V0041338)",
+      "license": "Public Domain Mark · Wellcome Collection",
+      "source_page": "https://wellcomecollection.org/works/ht6gf286",
+      "status": "cached"
+    },
+    {
+      "target": "pharmacy_model.jpg",
+      "kind": "wide",
+      "title": "Model of Chinese pharmacy, 19th century (Wellcome L0003393)",
+      "license": "CC BY 4.0 · Wellcome Collection",
+      "source_page": "https://wellcomecollection.org/works/jvvtxnjh",
+      "status": "cached"
+    },
+    {
+      "target": "chemist_shop.jpg",
+      "kind": "wide",
+      "title": "The doorway into a chemist’s shop in Shanghai, photograph (Wellcome V0029794)",
+      "license": "Public Domain Mark · Wellcome Collection",
+      "source_page": "https://wellcomecollection.org/works/zg9tysce",
+      "status": "cached"
+    },
+    {
+      "target": "pharmacy_1899.jpg",
+      "kind": "pharmacy",
+      "title": "Detroit Photographic Company - Chinese Pharmacy in California, 1899",
+      "license": "Public Domain · Detroit Photographic Company, 1899",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Detroit_Photographic_Company_-_Chinese_Pharmacy_in_California,_1899.jpg",
+      "status": "cached"
+    },
+    {
+      "target": "paper_dark.jpg",
+      "kind": "texture",
+      "title": "原创程序化宣纸 / 绢本 / 黑曜石肌理",
+      "status": "procedural-original",
+      "license": "本作品原创，Pillow + NumPy 生成"
+    },
+    {
+      "target": "scroll_silk.jpg",
+      "kind": "texture",
+      "title": "原创程序化宣纸 / 绢本 / 黑曜石肌理",
+      "status": "procedural-original",
+      "license": "本作品原创，Pillow + NumPy 生成"
+    },
+    {
+      "target": "obsidian_floor.jpg",
+      "kind": "texture",
+      "title": "原创程序化宣纸 / 绢本 / 黑曜石肌理",
+      "status": "procedural-original",
+      "license": "本作品原创，Pillow + NumPy 生成"
+    },
+    {
+      "target": "herbs/shihu.jpg",
+      "kind": "herb-photo",
+      "title": "Dendrobium huoshanense 原植物",
+      "author": "宇嘉诚",
+      "license": "CC BY-NC 4.0 · iNaturalist",
+      "source_page": "https://www.inaturalist.org/photos/554616407",
+      "status": "processed · warm duotone"
+    },
+    {
+      "target": "herbs/huangjing.jpg",
+      "kind": "herb-photo",
+      "title": "Polygonatum cyrtonema 原植物",
+      "author": "江国彬",
+      "license": "CC BY-NC 4.0 · iNaturalist",
+      "source_page": "https://www.inaturalist.org/photos/675986927",
+      "status": "processed · warm duotone"
+    },
+    {
+      "target": "herbs/baishao.jpg",
+      "kind": "herb-photo",
+      "title": "Paeonia lactiflora 花",
+      "author": "wormsi007",
+      "license": "CC BY-NC 4.0 · iNaturalist",
+      "source_page": "https://www.inaturalist.org/photos/138074321",
+      "status": "processed · warm duotone"
+    },
+    {
+      "target": "herbs/mugua.jpg",
+      "kind": "herb-photo",
+      "title": "Chaenomeles speciosa 花",
+      "author": "Steve Hofhine",
+      "license": "CC BY-NC 4.0 · iNaturalist",
+      "source_page": "https://www.inaturalist.org/photos/28152618",
+      "status": "processed · warm duotone"
+    },
+    {
+      "target": "herbs/bohe.jpg",
+      "kind": "herb-photo",
+      "title": "Mentha canadensis 原植物",
+      "author": "Hannah Freeman",
+      "license": "CC BY-NC 4.0 · iNaturalist",
+      "source_page": "https://www.inaturalist.org/photos/214224728",
+      "status": "processed · warm duotone"
+    },
+    {
+      "target": "herbs/huanglian.jpg",
+      "kind": "herb-photo",
+      "title": "Coptis chinensis 原植物",
+      "author": "misakinokukuru",
+      "license": "CC BY-NC 4.0 · iNaturalist",
+      "source_page": "https://www.inaturalist.org/photos/641232267",
+      "status": "processed · warm duotone"
+    },
+    {
+      "target": "herbs/aiye.jpg",
+      "kind": "herb-photo",
+      "title": "Artemisia argyi 原植物",
+      "author": "Repina Tatyana",
+      "license": "CC BY 4.0 · iNaturalist",
+      "source_page": "https://www.inaturalist.org/photos/429171890",
+      "status": "processed · warm duotone"
+    },
+    {
+      "target": "herbs/fuling.jpg",
+      "kind": "herb-photo",
+      "title": "Wolfiporia extensa 菌核",
+      "author": "Spencer Lowery",
+      "license": "CC BY-NC 4.0 · iNaturalist",
+      "source_page": "https://www.inaturalist.org/photos/284744030",
+      "status": "processed · warm duotone"
+    },
+    {
+      "target": "scenes/distill_lab.jpg",
+      "kind": "scene-archive",
+      "title": "历史化学蒸馏实验室图式",
+      "description": "A large chemical laboratory filled with distilling apparatus. Engraving, 177-.",
+      "license": "Public Domain Mark",
+      "source_page": "https://wellcomecollection.org/works/nm6fwnvm",
+      "credit": "Wellcome Collection",
+      "status": "processed · exhibition plate"
+    },
+    {
+      "target": "scenes/distill_room.jpg",
+      "kind": "scene-archive",
+      "title": "历史蒸馏室图式",
+      "description": "The chemical laboratory of Ambrose Godfrey: the distilling room. Etching after H. Gravelot.",
+      "license": "Public Domain Mark",
+      "source_page": "https://wellcomecollection.org/works/a99uywja",
+      "credit": "Wellcome Collection",
+      "status": "processed · exhibition plate"
+    },
+    {
+      "target": "scenes/tea_plantation.jpg",
+      "kind": "scene-archive",
+      "title": "清代中国茶山采茶图",
+      "description": "A tea plantation in China with women picking and sifting tea leaves. Gouache.",
+      "license": "Public Domain Mark",
+      "source_page": "https://wellcomecollection.org/works/pbrhjwhk",
+      "credit": "Wellcome Collection",
+      "status": "processed · exhibition plate"
+    },
+    {
+      "target": "scenes/tea_interior.jpg",
+      "kind": "scene-archive",
+      "title": "香港茶楼内景",
+      "description": "The interior of a tea-house, Hong Kong. Photograph by John Thomson, 1868/1871.",
+      "license": "Public Domain Mark",
+      "source_page": "https://wellcomecollection.org/works/hp6hqwd2",
+      "credit": "Wellcome Collection",
+      "status": "processed · exhibition plate"
+    },
+    {
+      "target": "scenes/tea_pouring.jpg",
+      "kind": "scene-archive",
+      "title": "清代茶事图：向茶碗注水",
+      "description": "A woman preparing a tea drink by pouring hot water into two bowls. Painting, ca. 1850.",
+      "license": "Public Domain Mark",
+      "source_page": "https://wellcomecollection.org/works/e7xk6zz3",
+      "credit": "Wellcome Collection",
+      "status": "processed · exhibition plate"
+    },
+    {
+      "target": "processing/huangjing_raw.jpg",
+      "kind": "processing-stage-photo",
+      "title": "生黄精根茎实拍",
+      "description": "黄精鲜根茎，教学阶段示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=黄精 切片",
+      "credit": "网络公开图片",
+      "status": "processed · teaching stage photograph"
+    },
+    {
+      "target": "processing/huangjing_steam.jpg",
+      "kind": "processing-stage-photo",
+      "title": "黄精蒸制切片实拍",
+      "description": "黄精蒸制后的切片，教学阶段示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=黄精 切片",
+      "credit": "网络公开图片",
+      "status": "processed · teaching stage photograph"
+    },
+    {
+      "target": "processing/huangjing_deep.jpg",
+      "kind": "processing-stage-photo",
+      "title": "黄精反复蒸晒实拍",
+      "description": "黄精反复蒸晒后的深色根茎，教学阶段示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=黄精 九蒸九晒",
+      "credit": "网络公开图片",
+      "status": "processed · teaching stage photograph"
+    },
+    {
+      "target": "processing/huangjing_prepared.jpg",
+      "kind": "processing-stage-photo",
+      "title": "九蒸九晒黄精实拍",
+      "description": "九蒸九晒后的乌黑油润黄精，教学阶段示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=黄精 九蒸九晒",
+      "credit": "网络公开图片",
+      "status": "processed · teaching stage photograph"
+    },
+    {
+      "target": "tea/maidong.jpg",
+      "kind": "tea-ingredient-photo",
+      "title": "麦冬 干药材实拍",
+      "description": "麦冬 入茶药材实拍，教学识别示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=麦冬 干 药材",
+      "credit": "网络公开图片",
+      "status": "processed · dried tea ingredient photograph"
+    },
+    {
+      "target": "tea/gouqi.jpg",
+      "kind": "tea-ingredient-photo",
+      "title": "枸杞 干药材实拍",
+      "description": "枸杞 入茶药材实拍，教学识别示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=枸杞 干果",
+      "credit": "网络公开图片",
+      "status": "processed · dried tea ingredient photograph"
+    },
+    {
+      "target": "tea/chenpi.jpg",
+      "kind": "tea-ingredient-photo",
+      "title": "陈皮 干药材实拍",
+      "description": "陈皮 入茶药材实拍，教学识别示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=陈皮 干 药材",
+      "credit": "网络公开图片",
+      "status": "processed · dried tea ingredient photograph"
+    },
+    {
+      "target": "tea/shengjiang.jpg",
+      "kind": "tea-ingredient-photo",
+      "title": "生姜 干药材实拍",
+      "description": "生姜 入茶药材实拍，教学识别示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=干姜 片",
+      "credit": "网络公开图片",
+      "status": "processed · dried tea ingredient photograph"
+    },
+    {
+      "target": "tea/hongzao.jpg",
+      "kind": "tea-ingredient-photo",
+      "title": "红枣 干药材实拍",
+      "description": "红枣 入茶药材实拍，教学识别示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=红枣 干",
+      "credit": "网络公开图片",
+      "status": "processed · dried tea ingredient photograph"
+    },
+    {
+      "target": "tea/bohe.jpg",
+      "kind": "tea-ingredient-photo",
+      "title": "薄荷 干药材实拍",
+      "description": "薄荷 入茶药材实拍，教学识别示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=薄荷 干 茶",
+      "credit": "网络公开图片",
+      "status": "processed · dried tea ingredient photograph"
+    },
+    {
+      "target": "tea/baihe.jpg",
+      "kind": "tea-ingredient-photo",
+      "title": "百合 干药材实拍",
+      "description": "百合 入茶药材实拍，教学识别示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=百合 干 药材",
+      "credit": "网络公开图片",
+      "status": "processed · dried tea ingredient photograph"
+    },
+    {
+      "target": "tea/shanzha.jpg",
+      "kind": "tea-ingredient-photo",
+      "title": "山楂 干药材实拍",
+      "description": "山楂 入茶药材实拍，教学识别示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=山楂 干 片",
+      "credit": "网络公开图片",
+      "status": "processed · dried tea ingredient photograph"
+    },
+    {
+      "target": "tea/fuling.jpg",
+      "kind": "tea-ingredient-photo",
+      "title": "茯苓 干药材实拍",
+      "description": "茯苓 入茶药材实拍，教学识别示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=茯苓 块",
+      "credit": "网络公开图片",
+      "status": "processed · dried tea ingredient photograph"
+    },
+    {
+      "target": "tea/juhua.jpg",
+      "kind": "tea-ingredient-photo",
+      "title": "菊花 干药材实拍",
+      "description": "菊花 入茶药材实拍，教学识别示意",
+      "license": "网络公开图片（教学引用）",
+      "source_page": "https://pic.sogou.com/pics?query=菊花 干 茶",
+      "credit": "网络公开图片",
+      "status": "processed · dried tea ingredient photograph"
+    }
+  ],
+  "libraries": [
+    {
+      "target": "echarts.min.js",
+      "urls": [
+        "https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js"
+      ],
+      "min": 500000,
+      "license": "Apache-2.0 · Apache ECharts 5.5.1",
+      "status": "cached"
+    },
+    {
+      "target": "gsap.min.js",
+      "urls": [
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      ],
+      "min": 30000,
+      "license": "GreenSock Standard License · GSAP 3.12.5",
+      "status": "cached"
+    }
+  ]
+}
