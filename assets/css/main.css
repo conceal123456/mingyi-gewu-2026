@@ -142,7 +142,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   gap: 24px;
   background: #070604;
   color: var(--muted);
-  animation: boot-away .8s var(--ease) 1.15s forwards;
+  animation: boot-away .52s var(--ease) .22s forwards;
 }
 .boot-screen.is-done { animation-delay: 0s; }
 .boot-mark { display: flex; align-items: center; gap: 16px; }
@@ -162,7 +162,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   height: 1px;
   background: linear-gradient(90deg, var(--gold-deep), transparent);
   transform-origin: left;
-  animation: load-line 1.3s var(--ease) both;
+  animation: load-line .68s var(--ease) both;
 }
 .boot-screen p {
   font-size: 11px;
@@ -472,7 +472,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   position: absolute;
   inset: -3%;
   z-index: -3;
-  background: url("../images/pharmacy_1899.jpg") center 49% / cover no-repeat;
+  background: url("../images/pharmacy_1899.webp") center 49% / cover no-repeat;
   filter: sepia(.16) saturate(.72) contrast(1.06) brightness(.62);
   transform: scale(1.02);
   animation: hero-breathe 18s ease-in-out infinite alternate;
@@ -871,7 +871,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   transform: rotateY(180deg);
   background:
     linear-gradient(180deg, rgba(229, 214, 188, .97), rgba(195, 175, 143, .98)),
-    url("../images/bencao_page.jpg") center / cover;
+    url("../images/bencao_page.webp") center / cover;
   color: #272018;
   text-align: left;
   box-shadow: inset 0 0 60px rgba(60, 41, 24, .18);
@@ -965,7 +965,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   left: 3%;
   height: 64px;
   overflow: hidden;
-  background: url("../images/obsidian_floor.jpg") center 30% / cover;
+  background: url("../images/obsidian_floor.webp") center 30% / cover;
   opacity: .26;
   filter: blur(2px);
   -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, .7), transparent);
@@ -1105,19 +1105,19 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
     radial-gradient(50% 55% at 50% 47%, rgba(145, 103, 47, .11), transparent 72%),
     linear-gradient(180deg, var(--ink) 0%, transparent 22%, transparent 76%, var(--ink) 100%);
 }
-.interlude-ink::before { background-image: url("../images/bencao_page.jpg"); opacity: .15; background-position: center 64%; }
-.interlude-fire::before { background-image: url("../images/drug_prep.jpg"); opacity: .26; background-position: center 40%; }
+.interlude-ink::before { background-image: url("../images/bencao_page.webp"); opacity: .15; background-position: center 64%; }
+.interlude-fire::before { background-image: url("../images/materia_plate.webp"); opacity: .26; background-position: center 40%; }
 .interlude-water::before {
   background-image:
     radial-gradient(45% 55% at 68% 42%, rgba(202, 168, 105, .15), transparent 65%),
-    url("../images/pharmacy_model.jpg");
+    url("../images/pharmacy_model.webp");
   opacity: .17;
 }
-.interlude-black::before { background-image: url("../images/pharmacy_1899.jpg"); opacity: .18; background-position: center 65%; }
+.interlude-black::before { background-image: url("../images/pharmacy_1899.webp"); opacity: .18; background-position: center 65%; }
 .interlude-red::before {
   background-image:
     radial-gradient(38% 58% at 62% 52%, rgba(158, 42, 43, .26), transparent 66%),
-    url("../images/shennong.jpg");
+    url("../images/shennong.webp");
   opacity: .22;
 }
 .interlude-paper {
@@ -1125,7 +1125,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   background: var(--paper);
 }
 .interlude-paper::before {
-  background-image: url("../images/bencao_page.jpg");
+  background-image: url("../images/bencao_page.webp");
   opacity: .16;
   filter: sepia(.3) contrast(.86) brightness(1.34);
 }
@@ -1652,7 +1652,7 @@ input[type="range"]::-moz-range-thumb {
 .chart-radar-figure {
   background:
     linear-gradient(145deg, rgba(234, 222, 203, .97), rgba(201, 184, 156, .97)),
-    url("../images/scroll_silk.jpg") center / cover;
+    url("../images/scroll_silk.webp") center / cover;
   color: #2c241b;
 }
 .chart-network-figure {
@@ -1748,7 +1748,7 @@ input[type="range"]::-moz-range-thumb {
   padding: 28px 32px 22px;
   background:
     linear-gradient(120deg, rgba(234, 222, 203, .96), rgba(205, 186, 155, .96)),
-    url("../images/scroll_silk.jpg") center / cover;
+    url("../images/scroll_silk.webp") center / cover;
   color: #2b2218;
   box-shadow: 0 24px 55px rgba(0, 0, 0, .19);
 }
@@ -2155,7 +2155,7 @@ input[type="range"]::-moz-range-thumb {
   z-index: -2;
   background-image:
     linear-gradient(90deg, rgba(246, 236, 216, .36), transparent 28%, transparent 82%, rgba(117, 84, 47, .11)),
-    url("../images/bencao_page.jpg");
+    url("../images/bencao_page.webp");
   background-size: cover;
   background-position: center;
   opacity: .12;
@@ -2249,7 +2249,7 @@ input[type="range"]::-moz-range-thumb {
   background:
     linear-gradient(90deg, rgba(128, 96, 53, .13), transparent 12%, transparent 88%, rgba(100, 71, 38, .12)),
     linear-gradient(180deg, rgba(245, 234, 211, .87), rgba(227, 212, 185, .96)),
-    url("../images/scroll_silk.jpg") center / cover;
+    url("../images/scroll_silk.webp") center / cover;
   box-shadow: inset 0 0 0 1px rgba(70, 48, 25, .17);
 }
 .verse-paper::before {
@@ -2966,7 +2966,7 @@ input[type="range"]::-moz-range-thumb {
   position: absolute;
   inset: 0;
   z-index: -2;
-  background: url("../images/chemist_shop.jpg") center 45% / cover;
+  background: url("../images/chemist_shop.webp") center 45% / cover;
   opacity: .14;
   filter: sepia(.25) brightness(.36) contrast(1.2);
 }
@@ -3444,7 +3444,7 @@ input[type="range"]::-moz-range-thumb {
 .chapter-forms {
   background:
     linear-gradient(90deg, rgba(10,8,6,.97), rgba(10,8,6,.86) 42%, rgba(10,8,6,.95)),
-    url("../images/apothecary_print.jpg") 94% 14% / 460px auto no-repeat,
+    url("../images/apothecary_print.webp") 94% 14% / 460px auto no-repeat,
     #0a0806;
 }
 @media (max-width: 860px) {
@@ -3741,7 +3741,7 @@ html.deck-ready body {
 .chart-network-figure {
   background:
     linear-gradient(145deg, rgba(28, 23, 17, .97), rgba(10, 8, 6, .98)),
-    url("../images/paper_dark.jpg") center / cover;
+    url("../images/paper_dark.webp") center / cover;
   color: var(--paper);
 }
 .chart-radar-figure { border-right: 1px solid rgba(214, 197, 174, .12); }
@@ -4222,13 +4222,13 @@ html.deck-ready body {
 .rhythm-panel .tea-lab {
   background:
     linear-gradient(90deg, rgba(10, 8, 6, .94), rgba(10, 8, 6, .87)),
-    url("../images/scenes/tea_interior.jpg") center 58% / cover;
+    url("../images/scenes/tea_interior.webp") center 58% / cover;
 }
 .tea-grid { align-items: start; }
 .rhythm-header {
   background:
     linear-gradient(90deg, rgba(10, 8, 6, .97), rgba(10, 8, 6, .78)),
-    url("../images/scenes/tea_interior.jpg") center 44% / cover;
+    url("../images/scenes/tea_interior.webp") center 44% / cover;
 }
 .deck-ready .chapter-rhythm .verse-side {
   position: sticky;
@@ -4327,7 +4327,7 @@ html.deck-ready body {
   position: absolute;
   inset: 0;
   z-index: -2;
-  background: url("../images/scenes/distill_room.jpg") center 42% / cover no-repeat;
+  background: url("../images/scenes/distill_room.webp") center 42% / cover no-repeat;
   opacity: .08;
   filter: sepia(.5) contrast(1.1) brightness(.65);
   pointer-events: none;
@@ -4543,7 +4543,7 @@ html.deck-ready body {
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: url("../images/scenes/tea_interior.jpg") center 55% / cover no-repeat;
+  background: url("../images/scenes/tea_interior.webp") center 55% / cover no-repeat;
   opacity: .06;
   filter: grayscale(.45) sepia(.2) contrast(1.05);
   pointer-events: none;
@@ -5044,7 +5044,7 @@ html.deck-ready body {
   border: 1px solid rgba(214, 197, 174, .13);
   background:
     linear-gradient(145deg, rgba(30, 24, 17, .72), rgba(9, 8, 6, .88)),
-    url("../images/paper_dark.jpg") center / cover;
+    url("../images/paper_dark.webp") center / cover;
   box-shadow: 0 26px 60px rgba(0, 0, 0, .22);
 }
 .quiz-orbit {
@@ -5284,7 +5284,7 @@ html.deck-ready body {
   color: var(--ink);
   background:
     linear-gradient(135deg, rgba(255, 250, 239, .84), rgba(247, 236, 216, .96)),
-    url("../images/paper_dark.jpg") center / cover;
+    url("../images/paper_dark.webp") center / cover;
   box-shadow: 0 26px 62px rgba(39, 25, 12, .16);
 }
 .chapter-trial .quiz-topline {
@@ -5637,3 +5637,43 @@ body.is-light-scene .main-nav a.is-active,
 body.is-light-scene .main-nav a.is-active b,
 body.is-light-scene .main-nav a.is-active span { color: #7c2d27 !important; }
 body.is-light-scene .site-head { background: rgba(239, 231, 217, .98); }
+
+/* Smoother scroll opening: longer, damped rotation and no reflection repaint mid-flip. */
+.scroll-flipper {
+  transition: transform 1.3s cubic-bezier(.16, 1, .3, 1);
+  transform-origin: 50% 50%;
+  will-change: transform;
+}
+.doctor-scroll.is-flipped .scroll-flipper {
+  transform: rotateY(180deg) translateZ(12px);
+}
+.doctor-scroll.is-flipping {
+  -webkit-box-reflect: none;
+}
+.doctor-scroll.is-flipping .scroll-flipper::after {
+  animation-duration: 1.3s;
+}
+.scroll-face,
+.scroll-back {
+  transition: opacity .2s ease .46s, visibility 0s .46s;
+}
+.doctor-scroll.is-flipped .scroll-face,
+.doctor-scroll.is-flipped .scroll-back {
+  transition: opacity .2s ease .46s, visibility 0s .46s;
+}
+.doctor-scroll.is-flipping .scroll-sheet {
+  box-shadow:
+    0 30px 54px rgba(0, 0, 0, .38),
+    0 2px 0 rgba(255, 243, 216, .18) inset,
+    0 0 0 1px rgba(255, 238, 198, .06);
+}
+@media (prefers-reduced-motion: reduce) {
+  .scroll-flipper { transition: none !important; }
+}
+
+
+/* Keep GPU layers only while a scene is actually on screen. */
+.deck-ready #main > .hero,
+.deck-ready #main > .chapter,
+.deck-ready #main > .epilogue { will-change: auto; }
+.deck-ready #main > .is-deck-active { will-change: opacity, transform; }

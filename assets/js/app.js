@@ -285,7 +285,7 @@
     }
     initSound();
     initReveals();
-    setTimeout(function () { if (dom.boot) dom.boot.classList.add("is-done"); }, 760);
+    setTimeout(function () { if (dom.boot) dom.boot.classList.add("is-done"); }, 360);
   }
 
   var deckState = { scenes: [], index: 0, locked: false, wheelAt: 0, touch: null };
@@ -681,6 +681,11 @@
     if (!card) return;
     var next = typeof force === "boolean" ? force : !state.galleryFlipped;
     state.galleryFlipped = next;
+    card.classList.add("is-flipping");
+    window.clearTimeout(card.__flipTimer);
+    card.__flipTimer = window.setTimeout(function () {
+      card.classList.remove("is-flipping");
+    }, 1400);
     card.classList.toggle("is-flipped", next);
     card.setAttribute("aria-expanded", next ? "true" : "false");
   }
@@ -1934,16 +1939,16 @@
      Chapter 04 · time wheel, circadian note and tea simulator
      ---------------------------------------------------------------------- */
   var teaPhotoMap = {
-    maidong: "assets/images/tea/maidong.jpg",
-    gouqi: "assets/images/tea/gouqi.jpg",
-    chenpi: "assets/images/tea/chenpi.jpg",
-    shengjiang: "assets/images/tea/shengjiang.jpg",
-    hongzao: "assets/images/tea/hongzao.jpg",
-    "bohe-tea": "assets/images/tea/bohe.jpg",
-    baihe: "assets/images/tea/baihe.jpg",
-    shanzha: "assets/images/tea/shanzha.jpg",
-    "fuling-tea": "assets/images/tea/fuling.jpg",
-    juhua: "assets/images/tea/juhua.jpg"
+    maidong: "assets/images/tea/maidong.webp",
+    gouqi: "assets/images/tea/gouqi.webp",
+    chenpi: "assets/images/tea/chenpi.webp",
+    shengjiang: "assets/images/tea/shengjiang.webp",
+    hongzao: "assets/images/tea/hongzao.webp",
+    "bohe-tea": "assets/images/tea/bohe.webp",
+    baihe: "assets/images/tea/baihe.webp",
+    shanzha: "assets/images/tea/shanzha.webp",
+    "fuling-tea": "assets/images/tea/fuling.webp",
+    juhua: "assets/images/tea/juhua.webp"
   };
 
   function initRhythm() {
@@ -2706,16 +2711,27 @@
       initDeck();
       initChrome();
       buildDoctors();
-      initCharts();
       initHerbs();
-      updateRadarChart();
-      updateNetworkChart();
       initProcessing();
       initDistillation();
       initRhythm();
       initForms();
       initQuiz();
       attachResize();
+      // Let the hero paint first; initialize the four chart canvases on idle.
+      var bootCharts = function () {
+        if (charts.radar || charts.network || charts.processing || charts.dose) return;
+        initCharts();
+        updateRadarChart();
+        updateNetworkChart();
+        updateProcessingChart();
+        updateDoseChart();
+      };
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(bootCharts, { timeout: 900 });
+      } else {
+        window.setTimeout(bootCharts, 520);
+      }
       if (window.gsap && !reducedMotion) {
         window.gsap.fromTo(".hero-copy > *", { y: 22, opacity: 0 }, {
           y: 0, opacity: 1, duration: 1.15, stagger: .075, delay: .72, ease: "power3.out", overwrite: "auto"
