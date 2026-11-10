@@ -908,6 +908,7 @@
       // Meridian nodes stay readable through hover tooltips; suppressing their
       // static labels keeps the larger type from colliding at 1920px.
       if (n.nodeType === 2) n.label = { show: false };
+      if (window.innerWidth < 640 && n.id !== herb.id) n.label = { show: false };
       return n;
     });
     if (hasECharts && charts.network) {
@@ -2181,11 +2182,11 @@
     });
     dom.forms.prev.addEventListener("click", function () {
       selectForm(state.form - 1);
-      dom.forms.track.scrollBy({ left: -dom.forms.track.clientWidth * .3, behavior: "smooth" });
+      dom.forms.track.scrollBy({ left: -(window.innerWidth <= 560 ? dom.forms.track.clientWidth : dom.forms.track.clientWidth * .3), behavior: "smooth" });
     });
     dom.forms.next.addEventListener("click", function () {
       selectForm(state.form + 1);
-      dom.forms.track.scrollBy({ left: dom.forms.track.clientWidth * .3, behavior: "smooth" });
+      dom.forms.track.scrollBy({ left: window.innerWidth <= 560 ? dom.forms.track.clientWidth : dom.forms.track.clientWidth * .3, behavior: "smooth" });
     });
     bindHorizontalDrag(dom.forms.track);
     selectForm(0, true);

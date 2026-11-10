@@ -5677,3 +5677,38 @@ body.is-light-scene .site-head { background: rgba(239, 231, 217, .98); }
 .deck-ready #main > .chapter,
 .deck-ready #main > .epilogue { will-change: auto; }
 .deck-ready #main > .is-deck-active { will-change: opacity, transform; }
+
+/* Mobile corrections: one clean hero scroll, full-width form panels, safer spacing. */
+@media (max-width: 560px) {
+  .hero { overflow-x: hidden; }
+  .hero-photo { left: 0; right: 0; width: 100%; }
+  .hero .doctor-scroll.is-side-left,
+  .hero .doctor-scroll.is-side-right,
+  .hero .doctor-scroll.is-far-left,
+  .hero .doctor-scroll.is-far-right { display: none; }
+  .hero .scroll-stage { height: 360px; perspective: 780px; }
+  .hero .doctor-scroll { width: 148px; height: 330px; }
+  .hero .stage-arch { width: 82%; }
+  .hero .stage-halo { width: 92%; }
+
+  .handscroll-track { scroll-snap-type: x mandatory; }
+  .handscroll-track .form-panel {
+    flex: 0 0 100%;
+    min-width: 0;
+    width: 100%;
+    min-height: 310px;
+  }
+  .handscroll .scroll-rod { width: 18px; }
+  .handscroll-head { font-size: 10px; }
+  .scroll-arrows .round-btn { width: 32px; height: 32px; }
+  .handscroll-hint { font-size: 9px; }
+
+  .tea-picker .tea-slot { height: 128px; }
+  .tea-picker .tea-slot img { height: 70px; }
+  .tea-picker .tea-slot b { padding-top: 5px; font-size: 13px; }
+  .tea-picker .tea-slot small { padding-top: 7px; }
+
+  .chapter-trial .trial-shell.is-quiz-active .trial-visual { min-height: 220px; }
+  .chapter-trial .trial-visual-copy h2 { font-size: 43px; }
+  .chapter-trial .quiz-panel { padding-bottom: 30px; }
+}
