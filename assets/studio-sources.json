@@ -1,0 +1,41 @@
+{
+  "revision": "2026-11-12",
+  "newAssets": [
+    {
+      "file": "assets/images/archive/shanjiang.webp",
+      "derivatives": [
+        "assets/images/archive/shanjiang-detail.webp"
+      ],
+      "title": "Chinese Materia Medica illustration, Ming; Alpinia japonica",
+      "creator": "Wang Shichang et al.",
+      "institution": "Wellcome Collection",
+      "identifier": "L0039307",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Alpinia_japonica_Wellcome_L0039307.jpg",
+      "modifications": "crop, resize, WebP compression; CSS opacity and multiply blend"
+    },
+    {
+      "file": "assets/images/archive/juhua-lite.webp",
+      "title": "Chinese Materia medica, C17; Plant drugs, Chrysanthemum",
+      "institution": "Wellcome Collection",
+      "identifier": "L0039340",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_Materia_medica,_C17;_Plant_drugs,_Chrysanthemum_Wellcome_L0039340.jpg",
+      "modifications": "resize, WebP compression; CSS crop and multiply blend"
+    }
+  ],
+  "originalGraphics": [
+    "specimens",
+    "apparatus",
+    "landscape",
+    "tea ingredients",
+    "vessels",
+    "charts",
+    "certificate",
+    "paper grain"
+  ],
+  "dataProvenance": "Existing TCM_DATA for botanical notes, herb fingerprints and form curves. New normalized process and distillation functions are teaching illustrations, not empirical measurements.",
+  "reference": "https://howdy-creative.co/cases/lifu-museum-traditional-chinese-medicine-beauty-exhibition/"
+}
